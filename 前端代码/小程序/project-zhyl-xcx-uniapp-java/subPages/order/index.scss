@@ -1,0 +1,61 @@
+@import url('@/styles/theme.scss');
+
+.orderBox{
+	:deep(.timeList){
+		.itemCon {
+		image{
+			width: 140rpx;
+			height: 124rpx;
+		}
+		.rText {
+			flex: 1;
+			.itemTit {
+				padding-left: 0;
+				padding-right: 0;
+				text{
+					&:first-child{
+						font-size: var(--font-size-16);
+						color: var(--neutral-color-main);
+					}
+				}
+			}
+			.tit{
+				margin-top: 0;
+			}
+			.amount{
+				text-align: right;
+				padding-top: 20rpx;
+				font-size: var(--font-size-12);
+				.font-col{
+					font-size: var(--font-size-16);
+					font-weight: 700;
+					padding-left: 12rpx;
+				}
+			}
+		}
+	}
+	}
+	:deep(.itemTab){
+		.tabBox {
+			.tabItem {
+				flex: 1;
+				&:first-child{
+					min-width: 100rpx;
+					flex: inherit;
+				}
+			}
+		}
+	}
+}
+.detailsBox{
+	.detailFoot{
+		justify-content: flex-end;
+		padding-right: 34rpx;
+		.bt{
+			margin: 0 12rpx;
+			font-size:var(--font-size-14);
+			font-weight: normal;
+		}
+		width: auto;
+	}
+}

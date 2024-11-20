@@ -1,0 +1,38 @@
+@import url('@/styles/theme.scss');
+
+
+:deep(.pdfPopup){
+	.popupCon{
+		padding:88rpx 100rpx 82rpx;
+		position: relative;
+		.tit{
+			font-size: var(--font-size-16);
+			color: var(--neutral-color-main);
+			padding-top: 30rpx;
+			font-weight: 700;
+		}
+		.tip{
+			padding: 24rpx 30rpx 52rpx;
+			line-height: 34rpx;
+			color: var(--neutral-color-placeholder);
+			font-size: var(--font-size-12);
+			font-weight: normal;
+		}
+	}
+	.close{
+		position: absolute;
+		bottom: -108rpx;
+		left: 50%;
+		transform: translate(-50%,0);
+		background: url(../../static/close.png) no-repeat;
+		background-size: contain;
+		width: 88rpx;
+		height: 88rpx;
+	}
+	
+}
+.contractBox{
+	:deep(.timeList){
+		margin-top: 0;
+	}
+}

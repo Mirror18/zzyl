@@ -1,0 +1,70 @@
+@import url('@/styles/theme.scss');
+
+.familyBox {
+	:deep(.fBox){
+		padding-bottom: 140rpx;
+	}
+	:deep(.timeList) {
+		.item{
+			padding: 30rpx 18rpx 20rpx;
+		}
+		.itemCon {
+			display: flex;
+			padding: 0 12rpx 20rpx;
+			.rText{
+				padding-left: 20rpx;
+			}
+			.tit{
+				font-size: var(--font-size-16);
+				font-family: 500;
+				line-height: 44rpx;
+				padding-bottom: 12rpx;
+				color: var(--neutral-color-main);
+				display: flex;
+				align-items: center;
+				.tag{
+					height: 36rpx;
+					line-height: 34rpx;
+					background: #FFECE7;
+					border-radius: 32px;
+					padding: 0 12rpx;
+					display: inline-block;
+					font-size: var(--font-size-11);
+					color: var(--essential-color-red);
+					margin-left: 12rpx;
+				}
+			}
+			.info{
+				font-size: var(--font-size-12);
+				color: var(--neutral-color-placeholder);
+				line-height: 34rpx;
+			}
+			.icon{
+				height: 36rpx;
+				line-height: 36rpx;
+			}
+			image {
+				width: 100rpx;
+				height: 100rpx;
+				border-radius: 16rpx;
+			}
+		}
+
+		.foot {
+			border-top: 1px solid var(--neutral-color-line);
+			padding: 20rpx 12rpx 0;
+			display: flex;
+			justify-content: flex-end;
+			label{
+				display: inline-block;
+				height: 56rpx;
+				line-height: 54rpx;
+				color: var(--neutral-color-main);
+				font-size: var(--font-size-12);
+				padding: 0;
+				margin-left: 20rpx;
+			}
+		}
+	}
+}
+

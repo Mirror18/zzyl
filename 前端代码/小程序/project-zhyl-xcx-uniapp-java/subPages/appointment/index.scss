@@ -1,0 +1,14 @@
+@import url('@/styles/theme.scss');
+.appoBox{
+	&.itemListBox{
+		:deep(.timeList) {
+			.item{
+				padding: 40rpx;
+			}
+		}
+	}
+	 
+}
+
+
+

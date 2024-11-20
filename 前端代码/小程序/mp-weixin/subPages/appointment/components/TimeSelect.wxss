@@ -1,0 +1,11 @@
+
+.picker-view {
+	width: 750rpx;
+	height: 600rpx;
+	margin-top: 20rpx;
+	padding-bottom: 120rpx;
+}
+.item {
+	line-height: 100rpx;
+	text-align: center;
+}

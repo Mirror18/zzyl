@@ -1,0 +1,330 @@
+{
+	"pages": [
+		// 首页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "中州养老",
+				"enablePullDownRefresh": true
+				// "app-plus": {
+				// 	"bounce": "none"
+				// }
+			}
+		},
+		// 家人
+		{
+			"path": "pages/family/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "家人",
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"bounce": "none"
+				// }
+			}
+		},
+		// 绑定
+		{
+			"path": "pages/family/binding",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "绑定家人",
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"bounce": "none"
+				// }
+			}
+		},
+		// 全部服务
+		{
+			"path": "pages/service/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "全部服务",
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"bounce": "none",
+				// 	"popGesture": "none",
+				// 	"disableSwipeBack": true
+				// }
+			}
+		},{
+			"path": "pages/service/details",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "服务详情",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#f4f3f7"
+			}
+		},{
+			"path": "pages/service/orderVerify",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "确认订单",
+				"enablePullDownRefresh": false,
+				"backgroundColor": "#f4f3f7"
+			}
+		},
+		// 手机登录页
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"bounce": "none",
+				// 	"popGesture": "none",
+				// 	"disableSwipeBack": true
+				// }
+			}
+		},
+
+		// 我的
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "我的",
+				"backgroundColor": "#f4f3f7",
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"bounce": "none",
+				// 	"popGesture": "none",
+				// 	"disableSwipeBack": true
+				// }
+			}
+		}, {
+			"path": "components/Foot/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+        ,{
+            "path" : "components/uni-phone/index",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+  "subPackages":[{
+    "root":"subPages", //子包的根目录
+    "pages":[
+      // 健康数据
+		  {
+		  	"path": "healthy/index",
+		  	"style": {
+		  		"navigationStyle": "custom",
+		  		"navigationBarTitleText": "健康数据",
+		  		"backgroundColor": "#f4f3f7",
+		  		"enablePullDownRefresh": false
+		  	}
+		  },
+      //健康数据物模型详情
+      {
+        "path": "wuDataDetail/index",
+        "style": {
+          "navigationStyle": "custom",
+          "navigationBarTitleText": "心率",
+          "backgroundColor": "#f4f3f7",
+          "enablePullDownRefresh": false
+        }
+      },
+	  // 参观预约
+	  {
+		  "path": "appointment/index",
+		  "style": {
+			  "navigationStyle": "custom",
+			  "navigationBarTitleText": "参观预约",
+			  "enablePullDownRefresh": false,
+			  "backgroundColor": "#f4f3f7"
+			  // "app-plus": {
+			  // 	"bounce": "none",
+			  // 	"popGesture": "none",
+			  // 	"disableSwipeBack": true
+			  // }
+		  }
+	  }, {
+		  "path": "appointment/components/PickerView",
+		  "style": {
+			  "navigationBarTitleText": "",
+			  "enablePullDownRefresh": false
+			  // "app-plus": {
+			  // 	"bounce": "none",
+			  // 	"popGesture": "none",
+			  // 	"disableSwipeBack": true
+			  // }
+		  }
+
+	  }, {
+		  "path": "appointment/list/index",
+		  "style": {
+			  "navigationStyle": "custom",
+			  "navigationBarTitleText": "我的预约",
+			  "enablePullDownRefresh": false,
+			  "backgroundColor": "#f4f3f7"
+			  // "app-plus": {
+			  // 	"bounce": "none",
+			  // 	"popGesture": "none",
+			  // 	"disableSwipeBack": true
+			  // }
+		  }
+	  },{
+		"path": "appointment/components/des",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+			// "app-plus": {
+			// 	"bounce": "none",
+			// 	"popGesture": "none",
+			// 	"disableSwipeBack": true
+			// }
+		}
+
+	},{
+		"path": "introduce/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "养老院介绍",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	},
+	{
+		"path": "bill/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "我的账单",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	},
+	// 我的合同
+	{
+		"path": "contract/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "我的合同",
+			"backgroundColor": "#f4f3f7",
+			"enablePullDownRefresh": false
+			// "app-plus": {
+			// 	"bounce": "none",
+			// 	"popGesture": "none",
+			// 	"disableSwipeBack": true
+			// }
+		}
+	},
+		
+	{
+		"path": "order/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "我的订单",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	},{
+		"path": "order/cancel",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "订单取消原因",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	},{
+		"path": "order/details",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "订单详情",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	},
+	{
+		"path": "success/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "支付订单",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	},
+	{
+		"path": "search/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "搜索",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	},
+
+	{
+		"path": "pay/index",
+		"style": {
+			"navigationStyle": "custom",
+			"navigationBarTitleText": "支付订单",
+			"enablePullDownRefresh": false,
+			"backgroundColor": "#f4f3f7"
+		}
+	}
+    ]
+  }
+  ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "中州养老",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"onReachBottomDistance": 50,
+		"enablePullDownRefresh": true
+		// "app-plus": {
+		// 	"background": "#efeff4"
+		// }
+	},
+	"condition": { // 模式配置，仅开发期间生效
+		"current": 0, // 当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", // 模式名称
+			"path": "", // 启动页面，必选
+			"query": "" // 启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+	// // 底部
+	// "tabBar": {
+	// 	"borderStyle": "black",
+	// 	"color": "#000000",
+	// 	"selectedColor": "#E94739",
+	// 	"list": [{
+	// 			"pagePath": "pages/index/index",
+	// 			"text": "首页",
+	// 			"iconPath": "static/home.png",
+	// 			"selectedIconPath": "static/homeHover.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/family/index",
+	// 			"text": "家人",
+	// 			"iconPath": "static/family.png",
+	// 			"selectedIconPath": "static/familyHover.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/service/index",
+	// 			"text": "服务",
+	// 			"iconPath": "static/serve.png",
+	// 			"selectedIconPath": "static/serveHover.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/my/index",
+	// 			"text": "我的",
+	// 			"iconPath": "static/my.png",
+	// 			"selectedIconPath": "static/myHover.png"
+	// 		}
+	// 	]
+	// }
+}

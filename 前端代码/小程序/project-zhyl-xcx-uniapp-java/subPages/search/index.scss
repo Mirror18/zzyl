@@ -1,0 +1,4 @@
+@import url('@/styles/theme.scss');
+:deep(page) {
+	background-color: var(--neutral-color-white) !important;
+}

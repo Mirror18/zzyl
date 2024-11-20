@@ -1,0 +1,21 @@
+{
+  "projectname": "zzyl",
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": false
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "",
+          "pathName": "subPages/healthy/index",
+          "query": "bedNumber=10124&remark=%E5%BC%9F%E5%BC%9F&elderName=%E7%8E%8B%E5%9B%9B&elderImg=https%3A%2F%2Fyjy-slwl-oss.oss-cn-hangzhou.aliyuncs.com%2Ffc7f4633-820a-48d1-abc2-acdc17f6c9dc.png&roomType=%E5%8F%8C%E4%BA%BA%E5%A5%97%E6%88%BF&deviceName=cdhuhdc&productKey=j0rkM5mCanO",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

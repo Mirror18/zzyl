@@ -1,0 +1,94 @@
+@import url('@/styles/theme.scss');
+.loginBox {
+	background-color: white;
+	height: 100vh;
+	::v-deep .uni-popup__wrapper {
+		height: 500rpx;
+		background-color: white !important;
+		border-radius: 24rpx 24rpx 0 0;
+		padding: 65rpx 39rpx 180rpx;
+	}
+	.logo-box {
+		text-align: center;
+		padding-top: 220rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		image {
+			width: 174rpx;
+			height: 168rpx;
+		}
+		.title {
+			font-size: 32rpx;
+			color: #20232a;
+			font-weight: bold;
+		}
+	}
+	.open-dialog {
+		height: 88rpx;
+		background: var(--essential-color-red);
+		border-radius: 44rpx;
+		color: white;
+		text-align: center;
+		line-height: 88rpx;
+		width: 80%;
+		font-size: 28rpx;
+		margin: 220rpx auto 0;
+		// position: absolute;
+		// left: 50%;
+		// top: 45%;
+		// transform: translate(-50%,45%);
+	}
+
+	uni-popup {
+		.header {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+			border-radius: 24rpx 24rpx 0 0;
+			image {
+				height: 35rpx;
+				width: 35rpx;
+			}
+			.title {
+				font-weight: bold;
+				font-size: 30rpx;
+				margin: 0 auto;
+			}
+		}
+		.content {
+			font-size: 28rpx;
+			margin-top: 35rpx;
+			.tips {
+				margin-top: 50rpx;
+			}
+			text {
+				font-weight: bold;
+			}
+		}
+		.footer {
+			display: flex;
+			margin-top: 90rpx;
+			text-align: center;
+			align-items: center;
+			justify-content: center;
+			.btn {
+				width: 276rpx;
+				height: 88rpx;
+				line-height: 88rpx;
+				border: 2rpx solid var(--essential-color-red);
+				border-radius: 44rpx;
+				font-size: 30rpx;
+			}
+			.cancel-btn {
+				background: #ffffff;
+				color: var(--essential-color-red);
+			}
+			.agree-btn {
+				background: var(--essential-color-red);
+				color: white;
+				margin-left: 30rpx;
+			}
+		}
+	}
+}
